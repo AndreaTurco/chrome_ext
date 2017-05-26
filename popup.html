@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+  <head>
+    <title>betent tool</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body id="body_betent" class="container" style="width : 350px;">
+    <h1 class="row col-sm-12 title">betent tool</h1>
+    <h4 class="row col-sm-12 sub_tile">Backoffice Links</h4>
+    <div class="col-sm-12">
+        <ul class="list-unstyled links_backoffice">
+            <li class="env_link" data-link="btnadm">Backoffice Prod</li>
+            <li class="env_link" data-link="btnadm-preview">Backoffice Preview</li>
+            <li class="env_link" data-link="staging-be">Backoffice Stage</li>
+        </ul>
+    </div>
+
+    <h4 class="sub_tile col-sm-12  row">Website Links</h4>
+    <form id="env_radios" class="row">
+        <div class="radio">
+          <label  class="radio-inline">
+            <input type="radio" name="environment" value="" checked="checked"><span class="label label-danger">Prod</span>
+          </label>
+          <label  class="radio-inline">
+            <input type="radio" name="environment" value="preview" checked="checked"><span class="label label-warning">Preview</span>
+          </label>
+          <label  class="radio-inline">
+            <input type="radio" name="environment" value="staging" checked="checked"><span class="label label-info">Stage</span>
+          </label>
+          <label  class="radio-inline">
+            <input type="radio" name="environment" value="test" checked="checked"><span class="label label-primary">Dev</span>
+          </label>
+        </div>
+        <!-- <input type="radio" name="environment" value="" checked="checked"><span class="label">prod</span>
+        <input type="radio" name="environment" value="preview"><span class="label">preview</span>
+        <input type="radio" name="environment" value="staging"><span class="label">stage</span>
+        <input type="radio" name="environment" value="test"><span class="label">dev</span> -->
+    </form>
+    <div class="select_skins_wrapper" class="row col-sm-12 ">
+        <select class="vm_name form-control col-sm-10">
+            <option value="">Select vm</option>
+            <option value="aturco">Andrea Turco</option>
+            <option value="aavona">Accursio Avona</option>
+            <option value="achantrill">Andy Chantrill</option>
+            <option value="ecastillo">Eric Castillo</option>
+            <option value="kfalzon">Karl Falzon</option>
+            <option value="ldalfonso">Lelio	d'Alfonso</option>
+            <option value="msammut">Marlon Sammut</option>
+            <option value="mbrincat">Matthew Brincat</option>
+            <option value="mfminuti">Mandy Fenech Minuti</option>
+            <option value="momarov">Mark Omarov</option>
+            <option value="omarquez">Obed Marquez</option>
+        </select>
+        <hr>
+        <select class="select_skins form-control col-sm-10">
+            <option value="">Select skin</option>
+            <option value="24bet24">24bet24</option>
+            <option value="2774Sports">2774Sports</option>
+            <option value="2846Bet">2846Bet</option>
+            <option value="B365Win">B365Win</option>
+            <option value="BetHope">BetHope</option>
+            <option value="BetPassion">BetPassion</option>
+            <option value="BetPower365">BetPower365</option>
+            <option value="BetSportWin">BetSportWin</option>
+            <option value="eSporte24">eSporte24</option>
+            <option value="FoxSport">FoxSport</option>
+            <option value="ibetgold">ibetgold</option>
+            <option value="IceBet24">IceBet24</option>
+            <option value="MixBet365">MixBet365</option>
+            <option value="Morgangame">Morgangame</option>
+            <option value="PlaceBet24">PlaceBet24</option>
+            <option value="Prismabet24">Prismabet24</option>
+            <option value="Sportbet365">Sportbet365</option>
+            <option value="Starwinbet">Starwinbet</option>
+            <option value="X24Bet">X24Bet</option>
+        </select>
+    </div>
+    
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+#body_betent{
+    font-family: 'Roboto', sans-serif;
+}
+#body_betent .title{
+    text-transform: capitalize;
+    color: #3897be;
+}
+
+#body_betent li.env_link {
+    padding: 5px 0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#body_betent #env_radios {
+    /*width: 80%;*/
+    margin: 0 auto;
+    text-align: center;
+}
+#body_betent #env_radios input{
+    vertical-align: bottom;
+}
+#body_betent #env_radios span{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    margin-right: 5px;
+}
+
+#body_betent .select_skins_wrapper{
+    /*width: 80%;*/
+    margin: 0 auto;
+
+}
+
+#body_betent .vm_name{
+    font-family: 'Roboto', sans-serif;
+    /*display: block;*/
+    /*width: 100%;*/
+    margin-top: 10px;
+}
+
+#body_betent .select_skins{
+    font-family: 'Roboto', sans-serif;
+    /*display: block;*/
+    /*width: 100%;*/
+    margin: 10px 0;
+}

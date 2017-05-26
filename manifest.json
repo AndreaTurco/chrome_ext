@@ -1,0 +1,35 @@
+{
+    "manifest_version": 2,
+
+    "name": "Betent Plugin",
+    "description": "This extension will give useful links",
+    "version": "2.0",
+    "browser_action": {
+        "default_icon": "betent_logo.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "icons": {
+        "16": "betent_logo.png",
+        "48": "betent_logo.png",
+        "128": "betent_logo.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "css" : [
+                "style.css"
+            ],
+            "js": [
+                "jquery-3.2.1.min.js",
+                "popup.js",
+                "lib/bootstrap.min.js"
+            ],
+            "run_at" : "document_end"
+        }
+    ]
+}
