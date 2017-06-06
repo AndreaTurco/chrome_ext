@@ -10,6 +10,8 @@
     padding: 5px 0;
     text-decoration: underline;
     cursor: pointer;
+    display: inline-block;
+    width: 48%;
 }
 #body_betent #env_radios {
     /*width: 80%;*/

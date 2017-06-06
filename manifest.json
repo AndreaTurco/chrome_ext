@@ -3,7 +3,7 @@
 
     "name": "Betent Plugin",
     "description": "This extension will give useful links",
-    "version": "2.0",
+    "version": "2.0.2",
     "browser_action": {
         "default_icon": "betent_logo.png",
         "default_popup": "popup.html"

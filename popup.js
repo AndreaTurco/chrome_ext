@@ -16,7 +16,17 @@ $(document).ready(function(){
         var $ln = $(this);
         var location = $ln.attr('data-link');
          $ln.on("click", function () {
-            chrome.tabs.update({active: true, url: "https://"+location+".betent.com/enter.php"});
+            if($(this).hasClass("git_link")){
+                chrome.tabs.update({active: true, url: "https://git.betent.com/projects/BET"});                
+            }else if($(this).hasClass("hq")){
+                chrome.tabs.update({active: true, url: "http://ops.betent.com/hqlogin.php"});                
+            }else if($(this).hasClass("jyra_link")){
+                chrome.tabs.update({active: true, url: "https://betent.atlassian.net/secure/RapidBoard.jspa?rapidView=2"});                
+            } else if($(this).hasClass("myissue_link")){
+                chrome.tabs.update({active: true, url: "https://betent.atlassian.net/browse/BET-990?filter=-1"});                
+            } else{
+                chrome.tabs.update({active: true, url: "https://"+location+".betent.com/enter.php"});                
+            }
         });
     });
 
