@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
-
+    
     "name": "Betent Plugin",
     "description": "This extension will give useful links",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "browser_action": {
         "default_icon": "betent_logo.png",
         "default_popup": "popup.html"

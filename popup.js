@@ -20,7 +20,7 @@ $(document).ready(function(){
                 chrome.tabs.update({active: true, url: "https://git.betent.com/projects/BET"});                
             }else if($(this).hasClass("hq")){
                 chrome.tabs.update({active: true, url: "http://ops.betent.com/hqlogin.php"});                
-            }else if($(this).hasClass("jyra_link")){
+            }else if($(this).hasClass("jira_link")){
                 chrome.tabs.update({active: true, url: "https://betent.atlassian.net/secure/RapidBoard.jspa?rapidView=2"});                
             } else if($(this).hasClass("myissue_link")){
                 chrome.tabs.update({active: true, url: "https://betent.atlassian.net/browse/BET-990?filter=-1"});                
